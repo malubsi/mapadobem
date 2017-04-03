@@ -1,0 +1,46 @@
+<ion-view view-title="Procurar">
+  <!-- <ion-nav-bar class="titulo">
+  </ion-nav-bar> -->
+  <ion-content class="padding mainbackground">
+      <!-- <ion-item class="item item-divider">
+        Busca Geral
+      </ion-item>
+      <ion-item href="#/app/bairros">
+        Bairros
+      </ion-item>
+      <ion-item href="#/app/categorias">
+        Categorias
+      </ion-item>
+      <ion-item href="#/app/elementos">
+        Todos os Dados
+      </ion-item>
+      <br> -->
+
+      <!-- <ion-item class="item item-divider">
+        Busca Específica
+      </ion-item> -->
+      <div class="centralizarProcurar">
+        <div class="bairroEsqu">
+          <label class="item item-input item-select">
+            <div class="input-label">Bairros
+            <select class="form-control" ng-model="bairroId" ng-options="bairro.nome for bairro in bairros">
+              <option value="">Todos</option>
+            </select>
+            </div>
+          </label>
+        </div>
+
+        <div class="">
+          <label class="item item-input item-select">
+            <div class="input-label">Categorias
+            <select class="form-control" ng-model="categoriaId" ng-options="categoria.nome for categoria in categorias">
+              <option value="">Todos</option>
+            </select>
+            </div>
+          </label>
+        </div>
+        <label><button class="button button-block button-positive" ng-click="goToRoute(bairroId,categoriaId)">Procurar <i class="ion-ios-search"></i></button></label>
+      </div>
+
+  </ion-content>
+</ion-view>

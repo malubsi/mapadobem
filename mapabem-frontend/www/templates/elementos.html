@@ -1,0 +1,20 @@
+<ion-view view-title="Resultado">
+  <ion-content class='backgroundespecificoresultado'>
+    <ion-list>
+      <div class='card resultado' ng-repeat="elemento in elementos">
+        <div class="item item-meu item-divider">
+          <p = class='tituloElemento'>
+          {{ elemento.nome }}
+          </p>
+        </div>
+        <div class="item item-text-wrap">
+          <a href="#/app/elementoDetalhes/{{elemento.id}}"><img class="elementoDetalhesImgBusca" ng-src="{{elemento.imagem.medium}}" ng-alt="{{elemento.nome}} Imagem"></a>
+        </div>
+        <div "item item-divider">
+            <button class="button button-elementos" ng-click='goToRoute(elemento)'>Mais Informações</button>
+        </div>
+      </div>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

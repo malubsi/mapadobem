@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app='starter'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Mapa do Bem</title>
+
+
+    <!--Import ionic.css-->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js-->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ng-cordova-master/dist/ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/BairrosCtrl.js"></script>
+    <script src="js/controllers/CategoriasCtrl.js"></script>
+    <script src="js/controllers/ProcurarCtrl.js"></script>
+    <script src="js/controllers/ElementosCtrl.js"></script>
+    <script src="js/controllers/ElementosBairroCtrl.js"></script>
+    <script src="js/controllers/ElementosCategoriaCtrl.js"></script>
+    <script src="js/controllers/ElementosBuscaCtrl.js"></script>
+    <script src="js/controllers/ElementoDetalhesCtrl.js"></script>
+    <script src="js/controllers/LoginCtrl.js"></script>
+    <script src="js/route/route.js"></script>
+    <script src="js/services/elementosAPIService.js"></script>
+    <script src="js/services/bairrosAPIService.js"></script>
+    <script src="js/services/categoriasAPIService.js"></script>
+  </head>
+
+  <body ng-view>
+    <ion-nav-view>
+    </ion-nav-view>
+  </body>
+
+</html>

@@ -1,0 +1,208 @@
+/* Empty. Add your own CSS if you like */
+.mainbackground{
+  background-color: #01939A;
+  /*background-image: url("../img/background-3.jpg");*/
+  /*background: linear-gradient(65deg, red, orange);*/
+  /*background-repeat: repeat-y;*/
+  background-size: cover;
+
+}
+
+.backgroundespecificoresultado{
+  background-image: url("../img/splash.png");
+  background-size: cover;
+  background-position: center;
+}
+.titulo{
+  background-color: #1E766F;
+  color: white;
+}
+
+.colaboradores{
+  background-color: white;
+  background-size: cover;
+  padding-top: 5%;
+}
+
+
+
+.imgContainer1{
+  align-items: center;
+
+}
+.img1{
+  width: 25%;
+  height: 25%;
+}
+
+.imgContainer2{
+  align-items: center;
+
+}
+.img2{
+  width: 27%;
+  height: 27%;
+}
+
+.imgContainer3{
+  align-items: center;
+  padding-bottom: 20px;
+}
+.img3{
+  width: 40%;
+  height: 40%;
+}
+
+.imgContainer4{
+  align-items: center;
+
+}
+.img4{
+  padding-bottom: -30px;
+  width: 40%;
+  height: 40%;
+
+}
+
+
+.centralizarProcurar{
+  width: 100%;
+  margin-top: 40%;
+}
+
+
+
+.card.resultado{
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button.button-close:hover{
+    color: red;
+}
+
+.item-divider{
+  padding: 12px;
+}
+
+.item-divider.topo{
+  padding: 12px;
+  margin-bottom: -15%;
+}
+
+.elementoDetalhesImg{
+  width: 100%;
+  height: auto;
+  margin-bottom: -15%;
+}
+
+.elementoDetalhesImgBusca{
+  width: 100%;
+  height: 300px;
+  margin-bottom: -15%;
+}
+
+.item.item-text-wrap{
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+
+}
+.button.button-dark{
+  width: 100%;
+  padding-bottom: 5px;
+  z-index: 3;
+}
+.bar.bar-subheader{
+  width: 100%;
+}
+.tituloElemento{
+  align-items: center;
+  text-align: center;
+  font-family:Gill Sans / Gill Sans MT, sans-serif;
+  font-size:150%;
+}
+
+
+.FAQ h3{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+  background-color: #f1efeb;
+}
+
+.FAQ p{
+  align-items: center;
+  text-align: justify;
+  margin: auto;
+  padding: 15px;
+  color: black;
+  background-color: white;
+}
+
+
+.button.button-block.button-positive{
+  margin-top: 0px;
+  background-color: #1E766F;
+  /*background-color: #FF7600;*/
+
+}
+
+.button.button-positive.icon.ion-location{
+  position: relative;
+  left: 80%;
+  bottom: -20px;
+  z-index: 3;
+  background-color: #1E766F;
+}
+.button.button-positive.icon.ion-location:hover{
+  position: relative;
+  left: 80%;
+  bottom: -20px;
+  z-index: 3;
+  background-color: #FF7600;
+}
+
+
+.button.button-positive.icon.ion-android-share-alt{
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  z-index: 3;
+  background-color: #1E766F;
+}
+.button.button-positive.icon.ion-android-share-alt:hover{
+  position: absolute;
+  left: 80%;
+  top: 3%;
+  z-index: 3;
+  background-color: #FF7600;
+}
+
+
+.button.button-clear.button-close{
+    /*background-color: #1E766F;*/
+    background-color: #FF7600;
+    color: white;
+}
+
+button.button-elementos{
+  width: 100%;
+  padding-bottom: 5%;
+  z-index: 3;
+  background-color: #1E766F;
+  /*background-color: #FF9840;*/
+  margin-bottom: -3%;
+  color: white;
+}
+
+.alertPopUp{
+  font-style: italic;
+  /*background-image: url("/img/background-3.jpg");*/
+  background-image: url("../img/splash.png");
+  /*background-repeat: repeat-y;*/
+  background-size: cover;
+  background-position: center;
+}
